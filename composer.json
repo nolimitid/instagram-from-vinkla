@@ -1,0 +1,42 @@
+{
+    "name": "vinkla/instagram",
+    "description": "An easy-to-use and simple Instagram package",
+    "license": "MIT",
+    "keywords": ["instagram", "media", "feed"],
+    "authors": [
+        {
+            "name": "Vincent Klaiber",
+            "email": "hello@vinkla.com",
+            "homepage": "https://vinkla.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "php-http/client-implementation": "^1.0",
+        "php-http/discovery": "^1.2",
+        "php-http/httplug": "^1.1",
+        "php-http/message-factory": "^1.0"
+    },
+    "require-dev": {
+        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/message": "^1.5",
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vinkla\\Instagram\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vinkla\\Tests\\Instagram\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "7.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
