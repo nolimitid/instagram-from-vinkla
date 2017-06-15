@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Vinkla\Instagram\Facades;
+namespace Nolimitid\Instagram\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

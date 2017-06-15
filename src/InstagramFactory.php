@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Vinkla\Instagram;
+namespace Nolimitid\Instagram;
 
 use MetzWeb\Instagram\Instagram;
 
